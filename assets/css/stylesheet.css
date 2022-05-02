@@ -11,15 +11,18 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 2px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--body-background-color);
+    width: clamp(fit-content, 95vw, 95vw);
 }
 
 header {
     background-color: darkslategrey;
-    height: 75px;
+    min-height: fit-content;
 }
 
 header h1 {
@@ -52,11 +55,14 @@ header ul a {
     padding: 5px 2px auto 2px;
     color: rgb(166, 205, 220);
 }
+/*Cohort Projects Section Styling Start*/
+#projects {
+    min-height: fit-content;
+}
 
+/*Cohort Projects Section Styling End*/
 /*Begin bio styling*/
-*/ .bio {
-    margin-top: 10%;
-    padding: 200px;
+ .bio {
     display: flex;
     flex-direction: column;
 }
@@ -73,23 +79,24 @@ header ul a {
 .bottom-bio {
     width: 10vw;
 }
+/*End Bio Styling*/
 
 /* Footer Styling Begins*/
-
-footer#contact-me {
+#contact-me {
     margin-top: 45px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100vw;
 }
 
-
-footer#contact-me h4 {
+#contact-me h4 {
     border-right: 5px solid var(--solid-border-color);
+    /* padding-right: clamp (15px, 5%, 200px); */
+    padding-right: 200px;
 }
 
-div.contact-me {
-    width: 100vw;
+.d-inline-block div {
+    width: clamp(fit-content, 95vw, 95vw);
 }
 
 div.contact-me ul {
@@ -100,3 +107,4 @@ div.contact-me ul li {
     display: inline-flex;
     padding-left: 55px;
 }
+/*Footer Styling Ends*/ 
