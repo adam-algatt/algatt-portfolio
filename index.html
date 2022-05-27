@@ -19,7 +19,7 @@
         
         <h1 class="d-inline-block pr-5">Algatt Creations</h1>
         <nav class="navbar navbar-dark d-inline-block"> 
-            <ul id="top-navlist" class="navbar-nav d-inline-block">
+            <ul id="nav-links" class="navbar-nav d-inline-block">
                 <li class="nav-link d-inline-block">
                     <a href="#about-me">About Me</a>
                 </li>
@@ -36,22 +36,22 @@
         </nav>
     </header>
 
-    <section class="container-fluid bio d-flex flex-row border border-dark py-4 mt-5">
-        
-       <div class="container-fluid border border-dark">
-            <img class="shadow" src="https://www3.pictures.gi.zimbio.com/Comedy+Centrals+Indecision+2008+Election+Night+ZEZZlfuxOkil.jpg"
+    <section class="container-fluid bio d-flex flex-row border border-dark py-4 mx-1 mt-5">
+        <div class="row">
+
+       <div class="col-sm-12 col-med-12 col-lg-4 text-sm-center text-md-center text-lg-end">
+            <img id="bio-image" class="img-responsive shadow " src="https://www3.pictures.gi.zimbio.com/Comedy+Centrals+Indecision+2008+Election+Night+ZEZZlfuxOkil.jpg"
                 alt="">
             </div>
       
-       
-            <p class="d-inline-flex text-wrap px-4 align-middle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus libero, dicta natus, cumque
+            <div class="col-sm-12 col-med-12 col-lg-6">
+            <p class="text-wrap pt-sm-4 pt-md-4 px-lg-5 px-sm-3 px-md-3 text-justified px-3">
+                &emsp; &emsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus libero, dicta natus, cumque
                 totam neque quae mollitia fugiat similique velit
                 accusantium quaerat soluta alias esse, unde molestias! Error, fugit!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit cupiditate distinctio repudiandae
-                ratione, non id recusandae qui, quod praesentium quas veniam,
-            </p>
-                <p class="d-block text-wrap px-4 align-middle">
+                ratione, non id recusandae qui! <br> <br>
+                &emsp; &emsp;praesentium quas veniam,
                 mollitia aspernatur? Aperiam nisi odio pariatur vero in!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque ducimus modi hic nam aut quam fuga
                 voluptate tempora, voluptatibus impedit totam voluptates
@@ -60,16 +60,17 @@
                 fugit nulla est. Iusto in, magni sunt deleniti quisquam
                 incidunt repellat necessitatibus. Impedit eum earum incidunt!
             </p>
-      
-
+      </div>
+        </div>
     </section>
 
     <!--Begin Projects Section-->
-<section id="projects" class="container-fluid mt-4">
-    <h3 id="projects-header">Cohort Projects</h3>
-    <div id="container-fluid">
-            <div class="row" id="project-one">
-            <div class="col-12">
+<section id="projects" class="container-fluid mt-4 flex-row">
+
+    <h3 id="projects-header" class="text-center my-5">Cohort Projects</h3>
+    <hr id="projects-hr" class="mx-auto">        
+    <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">
              <h3>Group Project One</h3>
              <p>
                 <a href="https://adam-algatt.github.io/Project-1/">
@@ -78,22 +79,28 @@
              />
             </a>
         </p>
-            </div>
-            <div class="row">
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 mx-4">
+                <h3>Group Project Two</h3>
+                <p>
+                   <a href="https://shanes-list.herokuapp.com/">
+                <img src="https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=" alt="Project one image" 
+                class="img-responsive shadow" 
+                />
+               </a>
+           </p>
+                 </div>
+   
+            
+            
                 <div class="col-6">
-                    <h3>Random Number Generator</h3>
+                    <h3 class="text-nowrap">Random Number Generator</h3>
                     <img src="https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=" alt="Project one image" 
                     class="img-responsive shadow" 
                     />
             </div>
      
-
-
-
-
-
-
-    </div>
+    
 </section>
 
 
@@ -111,6 +118,85 @@ add in icons and remove text gmail, github, etc. -->
         </ul>
     </div>
 </footer>
+
+  <!-- Section: Links  -->
+  <section id="footer" class="pt-3 ">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Algatt Creations
+          </h6>
+          <p>
+            I'm a new full-stack web developer committed to helping 
+            clients get a solid electronic footprint at a fair price.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="https://nodejs.org/en/" class="text-reset">Node</a>
+          </p>
+          <p>
+            <a href="https://handlebarsjs.com/" class="text-reset">HandleBars</a>
+          </p>
+          <p>
+            <a href="https://sequelize.org/" class="text-reset">Sequelize</a>
+          </p>
+          <p>
+            <a href="https://www.mysql.com/" class="text-reset">MySQL</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Eagle Creek, OR 97022, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+             <a class="text-decoration-none text-black" href="mailto: adam.algatt@gmail.com">adam.algatt@gmail.com</a>
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 555-555-5555</p>
+          <p><i class="fas fa-print me-3"></i> + 01-555-555-5555</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+
+  <div class="text-center p-4" style="background-color: rgba(113, 156, 163, 0.73);">
+    © 2022 Copyright
+    <a class="text-decoration-none text-black" href="algatt-creations.com">Algatt-creations.com</a>
+  </div>
+  <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>
+
 
 <!--Popper for bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

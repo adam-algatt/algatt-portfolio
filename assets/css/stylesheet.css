@@ -28,84 +28,48 @@ header {
     margin-right: 0;
 }
 
-header h1 {
+#header h1 {
     color: rgb(166, 205, 220);
 }
 
-/* header nav {
-    padding-top: 25px;
-} */
-
-/* #top-navlist {
-    width: 100%;
-    flex-direction: row;
-    list-style: none;
-    overflow: hidden;
-    margin-left: 15px;
-} */
-
-/* 
-header ul li {
-    padding-right: 20px;
-    padding-top: 15px;
-   
+#header ul {
+    justify-content: flex-end;
+    margin-left: auto;
+    float: inline-end;
 }
 
-header ul a {
+#header ul a {
     text-decoration: none;
-    padding: 5px 2px auto 2px;
-    color: rgb(166, 205, 220); */
-/* } */
+    padding: 5px 10px auto 2px;
+    color: rgb(166, 205, 220);
+} 
+
+
+#projects-hr {
+    width: 65vw;
+    background: url(//assets/images/compass.png) center center no-repeat;
+    padding: 0; 
+    border: none;
+}
+
+.projects-grid {
+    background-image: url(https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=) center center no repeat;
+}
+
+/*bio section styling*/
+/*
+#bio-image {
+   
+}
+*/
 /*Cohort Projects Section Styling Start*/
 /* #projects {
     min-height: fit-content;
 } */
 
-/*Cohort Projects Section Styling End*/
-/*Begin bio styling*/
- /* .bio {
-    display: flex;
-    flex-direction: column;
-} */
-/* 
-.top-bio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 25px 0;
-    width: auto;
-    height: auto;
+/* begin footer styling */
+#footer a {
+   text-decoration: none;
+    
 }
-
-.bottom-bio {
-    width: 10vw; */
-/*}*/
-/*End Bio Styling*/
-
-/* Footer Styling Begins*/
-/* #contact-me {
-    margin-top: 45px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-} */
-
-/* #contact-me h4 {
-    border-right: 5px solid var(--solid-border-color);
-    /* padding-right: clamp (15px, 5%, 200px); */
-    /* padding-right: 200px;
-} */ 
-/* 
-.d-inline-block div {
-    width: clamp(fit-content, 95vw, 95vw);
-}
-
-div.contact-me ul {
-    list-style: none;
-}
-
-div.contact-me ul li {
-    display: inline-flex;
-    padding-left: 55px;
-} */
-/*Footer Styling Ends*/ 
+/*end footer styling   */
