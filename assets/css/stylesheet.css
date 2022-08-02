@@ -1,0 +1,52 @@
+
+
+
+:root {
+    --solid-border-color: #134F5C;
+    --work-border-color: #C0C0C0;
+    --body-background-color: rgb(248, 248, 255);
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-background-color);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: darkslategrey;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#header h1 {
+    color: rgb(166, 205, 220);
+}
+
+
+#header ul a {
+    text-decoration: none;
+    /* padding: 5px 10px auto 2px;*/
+    color: rgb(166, 205, 220); 
+    margin-left: auto; 
+} 
+
+#projects-hr {
+    width: 65vw;
+    background: url(//assets/images/compass.png) center center no-repeat;
+    padding: 0; 
+    border: none;
+}
+
+.projects-grid {
+    background-image: url(https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=) center center no repeat;
+}
+
