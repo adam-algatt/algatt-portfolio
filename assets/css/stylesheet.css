@@ -23,7 +23,6 @@ body {
 
 header {
     background-color: darkslategrey;
-    width: 100vw;
     padding-right: 0;
     margin-right: 0;
 }
@@ -31,17 +30,18 @@ header {
 #header h1 {
     color: rgb(166, 205, 220);
 }
-
-#header ul {
+/* 
+ #header ul {
     justify-content: flex-end;
-    margin-left: auto;
-    float: inline-end;
-}
+    margin-left: auto; */
+    
+
 
 #header ul a {
     text-decoration: none;
-    padding: 5px 10px auto 2px;
-    color: rgb(166, 205, 220);
+    /* padding: 5px 10px auto 2px;*/
+    color: rgb(166, 205, 220); 
+    margin-left: auto; 
 } 
 
 
@@ -68,8 +68,8 @@ header {
 } */
 
 /* begin footer styling */
-#footer a {
+/* #footer a {
    text-decoration: none;
     
-}
+} */
 /*end footer styling   */
