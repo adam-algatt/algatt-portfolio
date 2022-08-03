@@ -1,3 +1,6 @@
+
+
+
 :root {
     --solid-border-color: #134F5C;
     --work-border-color: #C0C0C0;
@@ -27,11 +30,6 @@ header {
 #header h1 {
     color: rgb(166, 205, 220);
 }
-/* 
- #header ul {
-    justify-content: flex-end;
-    margin-left: auto; */
-    
 
 
 #header ul a {
@@ -41,7 +39,6 @@ header {
     margin-left: auto; 
 } 
 
-
 #projects-hr {
     width: 65vw;
     background: url(//assets/images/compass.png) center center no-repeat;
@@ -50,23 +47,6 @@ header {
 }
 
 .projects-grid {
-    background-image: url(https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=) center center no repeat;
+    background-image: url(https://media.istockphoto.com/photos/beautiful-vista-of-mount-hood-in-oregon-usa-picture-id526596821?k=20&m=526596821&s=612x612&w=0&h=ZzKdPys6BWUkNWRJvQlnvVcc1n2KUuvMtPmOqyxybXI=) fill no-repeat;
 }
 
-/*bio section styling*/
-/*
-#bio-image {
-   
-}
-*/
-/*Cohort Projects Section Styling Start*/
-/* #projects {
-    min-height: fit-content;
-} */
-
-/* begin footer styling */
-/* #footer a {
-   text-decoration: none;
-    
-} */
-/*end footer styling   */
